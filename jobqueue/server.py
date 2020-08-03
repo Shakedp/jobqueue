@@ -99,6 +99,10 @@ def create_app(job_queue_path=DEFAULT_JOB_QUEUE_PATH, waiting_ack_path=DEFAULT_W
     return app
 
 
-if __name__ == '__main__':
+def main():
     app = create_app()
     app.run(port=8000)
+
+
+if __name__ == '__main__':
+    main()

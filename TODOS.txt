@@ -1,0 +1,3 @@
+- Fix installation problem
+- Switch to Flask client instead of requests
+- Add tests
